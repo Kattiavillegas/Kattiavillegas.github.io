@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kattia Villegas | Diseñadora de productos accesibles</title>
+        <meta
+            name="description"
+            content="Portafolio de Kattia Villegas, diseñadora de productos accesibles enfocada en auditorías digitales WCAG." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="estilos.css" />
+    </head>
+
+    <body>
+        <a href="#contenido-principal" class="skip-link">Saltar al contenido principal</a>
+
+        <header id="container">
+            <img class="logo" src="img/logo-kattia-web.png" alt="Kattia, UX UI Designer y accesibilidad" />
+
+            <nav class="navbar" aria-label="Principal">
+                <ul>
+                    <li><a href="#portafolio">Casos de estudio</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="contenido-principal" tabindex="-1">
+            <!-- Introducción al portafolio -->
+            <div id="Introduccion">
+                <h1 class="heading">
+                    Hola, <img class="kattiaux" src="img/Katty.jpeg" alt="" /> soy Kattia
+                </h1>
+
+                <p class="bienvenidos">
+                    Bienvenidos y bienvenidas a mi portafolio.<br />
+                    Soy <strong>diseñadora de productos accesibles</strong>,
+                    enfocada en auditorías digitales. Ayudo a las empresas a crear productos
+                    digitales que cumplan los estándares de las WCAG, siempre
+                    pensando en un diseño interactivo y funcional para todas las
+                    personas usuarias.
+                </p>
+            </div>
+
+            <section id="portafolio" aria-labelledby="titulo-casos">
+                <h2 id="titulo-casos">Casos de estudio</h2>
+                <p class="centrado">
+                    Casos centrados en eliminar barreras digitales mediante la
+                    resolución estratégica de problemas complejos y el diseño
+                    UX/UI accesible.
+                </p>
+
+                <!-- Tarjetas de casos de estudio.
+                     PENDIENTE: agregar en cada tarjeta, al final de .card_content, el enlace a su caso:
+                     <a href="URL-DEL-CASO" class="btn">Ir al caso<span class="sr-only">: nombre del caso</span></a> -->
+                <div id="card_estudio">
+                    <article class="card">
+                        <img
+                            src="img/Huli imagen de adulto mayor.png"
+                            alt="Persona adulta mayor usando el sitio web de Huli Costa Rica en una computadora portátil"
+                            loading="lazy" />
+                        <div class="card_content">
+                            <h3>Huli Costa Rica</h3>
+                            <p class="card_tipo">Auditoría de accesibilidad</p>
+                            <p class="descripcion">
+                                Se analizan en detalle los componentes, el layout
+                                y la funcionalidad del flujo principal de Huli
+                                Costa Rica según los estándares de las WCAG 2.2,
+                                para identificar las principales barreras que
+                                enfrentan las personas usuarias con discapacidad.
+                            </p>
+                            <ul class="etiquetas" aria-label="Etiquetas">
+                                <li class="etiqueta">Auditoría de accesibilidad</li>
+                                <li class="etiqueta">Web</li>
+                                <li class="etiqueta">Salud</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            src="img/Davibank AI.png"
+                            alt="Persona revisando el sitio web de Davibank en una computadora portátil"
+                            loading="lazy" />
+                        <div class="card_content">
+                            <h3>Banco Davibank</h3>
+                            <p class="card_tipo">Análisis de accesibilidad</p>
+                            <p class="descripcion">
+                                Caso de estudio con una auditoría de accesibilidad
+                                que combina herramientas automatizadas, revisión
+                                manual e inspección de la navegación con teclado
+                                y VoiceOver.
+                            </p>
+                            <ul class="etiquetas" aria-label="Etiquetas">
+                                <li class="etiqueta">Accesibilidad</li>
+                                <li class="etiqueta">Web</li>
+                                <li class="etiqueta">Banca</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img
+                            src="img/nicoyazul app.png"
+                            alt="Teléfono con la aplicación Nicoya Azul junto al texto Comercios y Emprendedores Locales"
+                            loading="lazy" />
+                        <div class="card_content">
+                            <h3>Nicoya Azul App</h3>
+                            <p class="card_tipo">Diseño UX/UI</p>
+                            <p class="descripcion">
+                                Se analizan los perfiles de las personas usuarias
+                                y se rediseña la app con la paleta de colores del
+                                cliente, para mejorar la interfaz y hacerla más
+                                amigable e intuitiva.
+                            </p>
+                            <ul class="etiquetas" aria-label="Etiquetas">
+                                <li class="etiqueta">UX Design</li>
+                                <li class="etiqueta">UI Design</li>
+                                <li class="etiqueta">App</li>
+                                <li class="etiqueta">Informativo</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="box box-centrada">
+                    <a
+                        href="https://www.behance.net/katyvillegas"
+                        target="_blank"
+                        rel="noopener"
+                        class="button_box">Visitar mi Behance<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+                </div>
+            </section>
+
+            <section id="habilidades" aria-labelledby="titulo-habilidades">
+                <h2 id="titulo-habilidades">Habilidades</h2>
+                <p class="centrado">
+                    Con experiencia en diseño UX/UI, me especializo en transformar
+                    las barreras digitales en oportunidades inclusivas a través de
+                    consultoría experta en accesibilidad.
+                </p>
+
+                <div id="skills">
+                    <div class="skillscard">
+                        <img src="img/emoji_people.png" alt="" />
+                        <div class="experiencia">
+                            <h3>4+ años de experiencia</h3>
+                            <p class="descripcion">
+                                Licenciada en Marketing, con especialidad en UX y
+                                UI y más de 4 años de experiencia en banca.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skillscard">
+                        <img src="img/art_track.png" alt="" />
+                        <div class="experiencia">
+                            <h3>UX &amp; UI Design</h3>
+                            <p class="descripcion">
+                                Investigación de usuarios, prototipos de alta
+                                fidelidad y uso de la metodología Design Thinking.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skillscard">
+                        <img src="img/phonelink.png" alt="" />
+                        <div class="experiencia">
+                            <h3>HTML y CSS</h3>
+                            <p class="descripcion">
+                                Conocimientos en maquetación con HTML y CSS.
+                                Creación de estructura para correos y landing pages.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skillscard">
+                        <img src="img/icono_wheelchair_pickup.png" alt="" />
+                        <div class="experiencia">
+                            <h3>Accesibilidad</h3>
+                            <p class="descripcion">
+                                Experta en criterios de WCAG 2.2, auditorías de
+                                accesibilidad y creación de handoffs accesibles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skillscard">
+                        <img src="img/icono_work.png" alt="" />
+                        <div class="experiencia">
+                            <h3>Marketing</h3>
+                            <p class="descripcion">
+                                Licenciada en comunicación y mercadeo, con unos 6
+                                años de experiencia en diseño y estrategias.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="skillscard">
+                        <img src="img/icono_groups.png" alt="" />
+                        <div class="experiencia">
+                            <h3>Colaboración efectiva</h3>
+                            <p class="descripcion">
+                                Comunicación efectiva con equipos de marketing,
+                                desarrollo y control de calidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacto" aria-labelledby="titulo-contacto">
+                <div class="contacto">
+                    <h2 id="titulo-contacto">¡Conversemos!</h2>
+                    <p class="centrado">
+                        Si quieres conocer más sobre mi trabajo, no dudes en
+                        contactarme.
+                    </p>
+
+                    <div class="box box-centrada">
+                        <a
+                            href="Resume%20Kattia%20UX&amp;Accessibility.pdf"
+                            class="link_interno"
+                            target="_blank"
+                            rel="noopener">Ver mi currículum<span class="sr-only"> (PDF, se abre en una pestaña nueva)</span></a>
+
+                        <a
+                            href="https://www.linkedin.com/in/kattiavillegascespedes/"
+                            target="_blank"
+                            rel="noopener"
+                            class="button_box">Visitar mi LinkedIn<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+
+                        <a href="mailto:kattiaux@gmail.com" class="connect-email">
+                            <svg class="email-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            kattiaux@gmail.com
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer-nombre">Kattia Villegas</p>
+            <p class="footer">Diseñadora de productos accesibles · Consultoría en accesibilidad</p>
+
+            <nav class="navfooter" aria-label="Pie de página">
+                <ul>
+                    <li><a href="#portafolio">Casos de estudio</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <hr />
+
+            <div id="final_footer">
+                <p class="finalp">© 2026 - Kattia Villegas</p>
+
+                <div class="socialmedia">
+                    <a
+                        href="https://www.linkedin.com/in/kattiavillegascespedes/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="LinkedIn (se abre en una pestaña nueva)">
+                        <img src="img/linkedinlogo.png" alt="" />
+                    </a>
+                    <a
+                        href="https://www.behance.net/katyvillegas/"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Behance (se abre en una pestaña nueva)">
+                        <img src="img/behance.png" alt="" />
+                    </a>
+                    <a
+                        href="https://www.figma.com/@kattyux"
+                        target="_blank"
+                        rel="noopener"
+                        aria-label="Figma (se abre en una pestaña nueva)">
+                        <img src="img/figmalogo.png" alt="" />
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
